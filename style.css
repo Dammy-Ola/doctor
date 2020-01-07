@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0.75rem 0;
+}
+
+/* Utility class */
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+
+.btn {
+    display: inline-block;
+    color: #6dd47e;
+    background: #ffd55a;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background: #6dd47e;
+    color: #293250;
+}
+
+.cta {
+    font-size: 4rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+    /* color: #fff; */
+}
+
+.cure {
+    background: #ffd55a;
+    padding: 10px;
+    color: #6dd47e;
+    cursor: pointer;
+}
+
+.cure:hover {
+    background: #6dd47e;
+    padding: 10px;
+    color: #293250;
+}
+
+.w-cta {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+  
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: #ffd55a;
+    color: #293250;
+    /* color: #6dd47e; */
+    padding: 1rem;
+    /* z-index: 1; */
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li a {
+    color: #293250;
+    /* color: #6dd47e; */
+    padding: 0.75rem;
+    margin: 0 0.25rem;
+}
+
+nav ul li a:hover {
+   border-bottom: 2px solid #293250;
+}
+
+#hero {
+    background: #ffd55a url('../pic1.jpg') no-repeat center center/cover;
+    /* height: calc(100vh - 60px); */
+    height: 100vh;
+    color: #fff;
+}
+
+#hero .hero-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 2rem;
+    /* OVerlay */
+    position: absolute;
+    top: 60px;
+    left:0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    /* opacity: 0.4; */
+}
